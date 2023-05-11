@@ -24,6 +24,7 @@ public class Login extends DataPraktikan{
         if (tabelSesiLogin.containsKey(email) && tabelSesiLogin.get(email).equals(password)) {
             if (email.endsWith("@umm.ac.id")) {
                 menu();
+                System.out.println("!!! Anda telah keluar dari akun !!!");
             } else {
                 System.out.println("!!! Gagal Login: Email harus menggunakan domain @umm.ac.id !!!");
             }
@@ -38,10 +39,6 @@ public class Login extends DataPraktikan{
         Login tes = new Login();
 
         tes.login();
-        System.out.println("!!! Anda telah keluar dari akun !!!");
-
-
-
     }
 
 }
