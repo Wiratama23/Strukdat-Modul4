@@ -12,7 +12,6 @@ public class Login extends DataPraktikan{
 
     public void login() {
         Scanner input = new Scanner(System.in);
-        Login data = new Login();
 
         System.out.println("======Login======");
         System.out.print("Masukkan email: ");
